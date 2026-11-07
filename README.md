@@ -1,6 +1,6 @@
 # Secure Supabase Model Context Protocol (MCP) Server
 
-[![CI Security Check](https://github.com/minhajadab/supabase-mcp-secure/actions/workflows/ci.yml/badge.svg)](https://github.com/minhajadab/supabase-mcp-secure/actions/workflows/ci.yml)
+[![CI Security Check](https://github.com/minhajadab3836/supabase-mcp-secure/actions/workflows/ci.yml/badge.svg)](https://github.com/minhajadab3836/supabase-mcp-secure/actions/workflows/ci.yml)
 [![TypeScript](https://img.shields.io/badge/TypeScript-5.x%20%2F%207.x-blue.svg)](https://www.typescriptlang.org/)
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](LICENSE)
 [![Node.js](https://img.shields.io/badge/Node.js-%3E%3D20.0.0-green.svg)](https://nodejs.org/)
@@ -57,7 +57,7 @@ graph TD
 ### 3.2 - Installation & Build
 
 ```bash
-git clone https://github.com/minhajadab/supabase-mcp-secure.git
+git clone https://github.com/minhajadab3836/supabase-mcp-secure.git
 cd supabase-mcp-secure
 npm install
 npm run build
