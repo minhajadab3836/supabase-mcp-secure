@@ -1,0 +1,38 @@
+{
+  "name": "supabase-mcp-secure",
+  "version": "1.0.0",
+  "description": "Production-grade Model Context Protocol (MCP) server providing air-gapped, audited access to Supabase stored procedures with Zod validation, role-based scope controls, and error sanitization.",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "scripts": {
+    "dev": "tsx watch src/index.ts",
+    "build": "tsc",
+    "start": "node dist/index.js",
+    "test": "tsx scripts/test-security.ts",
+    "test:security": "tsx scripts/test-security.ts"
+  },
+  "keywords": [
+    "mcp",
+    "model-context-protocol",
+    "supabase",
+    "security",
+    "ai-agents",
+    "typescript",
+    "antigravity",
+    "audit-logging"
+  ],
+  "author": "Md Minhaj Adab <minhajadab06@gmail.com>",
+  "license": "MIT",
+  "type": "module",
+  "dependencies": {
+    "@modelcontextprotocol/sdk": "^1.32.2",
+    "@supabase/supabase-js": "^2.119.0",
+    "dotenv": "^18.0.9",
+    "zod": "^4.6.7"
+  },
+  "devDependencies": {
+    "@types/node": "^26.6.6",
+    "tsx": "^4.23.15",
+    "typescript": "^7.0.2"
+  }
+}

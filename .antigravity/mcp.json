@@ -1,0 +1,11 @@
+{
+  "mcpServers": {
+    "supabase-secure": {
+      "command": "node",
+      "args": ["./dist/index.js"],
+      "env": {
+        "MCP_MODE": "READ_ONLY"
+      }
+    }
+  }
+}
