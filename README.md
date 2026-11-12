@@ -45,7 +45,9 @@ graph TD
 5. **Trace Sanitization:** Strips internal PostgREST stack traces and database internal names before returning errors to the LLM client.
 
 ---
-
+<p align="center">
+  <img src="./demo.gif" alt="Secure Supabase MCP Server Demo" width="850" />
+</p>
 ## 3. Quickstart
 
 ### 3.1 - Prerequisites
