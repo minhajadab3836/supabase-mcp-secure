@@ -49,6 +49,7 @@ graph TD
   <img src="./demo.gif" alt="Secure Supabase MCP Server Demo" width="850" />
 </p>
 
+---
 
 ## 3. Quickstart
 
